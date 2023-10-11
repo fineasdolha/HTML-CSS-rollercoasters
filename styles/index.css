@@ -1,0 +1,40 @@
+
+.button {
+    font-size: 6rem;
+    color: #3a3a3a;
+    padding: 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d4d4d4;
+    position: relative;
+    animation: animation 4s ease-out;
+    animation-timeline: view();
+    padding: 2em;
+}
+
+
+
+@media  screen and (max-width:600px) {
+
+   .button {
+    position: absolute;
+    animation: none;
+    animation-timeline: auto;
+    
+   }
+
+  
+   @keyframes animation {
+       0% {
+           opacity: 0;
+       }
+       100% {
+           opacity: 1;
+       }
+}
+
+
+
+}
+
+
